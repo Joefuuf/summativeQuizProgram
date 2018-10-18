@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="backgroundPanel" alignment="0" max="32767" attributes="0"/>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="calcTotalButton" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="101" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <Component id="questionLabel5" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="answerOpt20" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
+                      <Component id="answerTxtInput5" min="-2" pref="79" max="-2" attributes="0"/>
+                      <EmptySpace min="45" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="answerOpt17" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="answerOpt19" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="answerOpt18" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="messageDisplayLabel" min="-2" pref="291" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Component id="backgroundPanel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+              <Component id="questionLabel5" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="answerOpt17" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="answerOpt19" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                      <Component id="answerOpt18" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="messageDisplayLabel" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="answerOpt20" min="-2" max="-2" attributes="0"/>
+                  <Component id="answerTxtInput5" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="calcTotalButton" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="backgroundPanel">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="questionLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="questionLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="20" pref="20" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="answerOpt1" min="-2" max="-2" attributes="0"/>
+                              <Component id="answerOpt3" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="answerOpt2" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="answerOpt4" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="answerTxtInput1" min="-2" pref="79" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="answerOpt5" min="-2" max="-2" attributes="0"/>
+                              <Component id="answerOpt6" min="-2" max="-2" attributes="0"/>
+                              <Component id="answerOpt7" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="answerOpt8" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="162" max="-2" attributes="0"/>
+                          <Component id="answerTxtInput2" min="-2" pref="80" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="questionLabel4" min="-2" max="-2" attributes="0"/>
+                              <Component id="questionLabel3" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="answerOpt13" min="-2" max="-2" attributes="0"/>
+                                      <Component id="answerOpt9" min="-2" max="-2" attributes="0"/>
+                                      <Component id="answerOpt10" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="answerOpt16" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="answerOpt15" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="answerOpt14" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                                          <Component id="answerOpt11" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Group type="102" attributes="0">
+                                              <Component id="answerOpt12" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="answerTxtInput3" min="-2" pref="79" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="answerTxtInput4" min="-2" pref="79" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="102" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="titleLabel" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="subtitleLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="76" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="subtitleLabel2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="117" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="titleLabel" min="-2" pref="22" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+                  <Component id="subtitleLabel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="subtitleLabel2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="questionLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="questionLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Component id="answerOpt1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="answerOpt2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="answerOpt10" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Component id="answerOpt9" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="answerOpt3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="answerOpt11" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="answerOpt4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="answerTxtInput1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                          <Component id="answerOpt12" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="answerTxtInput3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="questionLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="questionLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="answerOpt5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="answerOpt13" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="answerOpt14" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="answerOpt6" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="answerOpt15" alignment="3" min="-2" pref="14" max="-2" attributes="0"/>
+                      <Component id="answerOpt7" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="answerOpt16" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="answerOpt8" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="answerTxtInput4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="answerTxtInput2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="titleLabel">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="AmericanTypItcDEEMed" size="18" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Real Gamer Permadeath Quiz for Real Gamers"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="subtitleLabel">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="AmericanTypItcDEEMed" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="If you answer all of the questions correctly, you are epic gamer!!"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="subtitleLabel2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="AmericanTypItcDEEMed" size="12" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Type in the corresponding letter, in Capitals, into the text box"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="questionLabel1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="1. Which one of these Batman Games was released first?"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="answerOpt1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="A) Batman: Arkham Origins"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="answerOpt2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="B) Batman: Arkham Knight"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="answerOpt3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="C) Batman: Arkham City"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="answerOpt4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="D) Batman: Arkham Asylum"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="answerTxtInput1">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="answerTxtInput1ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="questionLabel2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="2. Which Spider-man game was developed by Insomniac Games?"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="answerOpt5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="A) Ultimate Spider-Man"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="answerOpt6">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="B) Spider-Man"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="answerOpt7">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="C) Spider-Man: Shattered Dimensions"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="answerOpt8">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="D)Spiderman 2"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="answerTxtInput2">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="answerTxtInput2ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="questionLabel3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="3. Which one of these Bethesda games was released 3 times?"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="answerOpt9">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="A) Elder Scrolls V:Skyrim"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="answerOpt10">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="B) Dishonored"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="answerOpt11">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="C) Doom"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="answerOpt12">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="D) Fallout New Vegas"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="answerTxtInput3">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="answerTxtInput3ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="questionLabel4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="4. Which game was the host game of the original PUBG mod?"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="answerOpt13">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="A) DayZ"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="answerOpt14">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="B) Arma 3"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="answerOpt15">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="C) H1Z1"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="answerOpt16">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="D) Arma 2"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="answerTxtInput4">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="answerTxtInput4ActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="calcTotalButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Done"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="calcTotalButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="questionLabel5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="5. Nobou Uematsu is the composer for which video game franchise? "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="answerOpt17">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="A) Dragon Quest"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="answerOpt18">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="C) Final Fantasy"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="answerOpt19">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="B) Soulsbourne (Dark Souls, Bloodborne)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="answerOpt20">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="D) Super Mario Bros"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="answerTxtInput5">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="answerTxtInput5ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="messageDisplayLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="AmericanTypItcDEEMed" size="14" style="0"/>
+        </Property>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
